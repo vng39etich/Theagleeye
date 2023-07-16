@@ -10,4 +10,10 @@ def confirm_number(num):
         print("The number is zero")
 
 
+if __name__ == "__main__":
 
+    try:
+        user_input = float(input("ENter a number: "))
+        confirm_number(user_input)
+    except ValueError:
+        print("Invalid input. Please enter a valid number.")
