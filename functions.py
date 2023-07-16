@@ -1,7 +1,7 @@
 #!usr/bin/python3
 
 def square(y):
-    return y*Y
+    return y*y
 
 
 for i in rage(10):
