@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import time
 #Take the user input
-choice = int(input("Please enter the number of your choice"))
+choice = int(input("Please enter the number of your choice: "))
 #function definition
 def function(choice):
     for num in range(1, choice):
@@ -17,4 +17,4 @@ def function(choice):
     print("Your program will run shortly")
 
     time.sleep(5)
-    function(choice)
+function(choice)
